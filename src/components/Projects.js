@@ -8,6 +8,8 @@ import projImg4 from "../assets/img/whiteBoard.png";
 import projImg5 from "../assets/img/keeper.png";
 import projImg6 from "../assets/img/portf.png";
 import proImg6 from "../assets/img/headphone.png";
+import proImg7 from "../assets/img/blog Image.png";
+import proImg8 from "../assets/img/Ecommerce.png";
 import "animate.css";
 
 export const Projects = () => {
@@ -56,6 +58,18 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg6,
       url: "https://hfycx0.csb.app/",
+    },
+    {
+      title: "Blog app",
+      description: "Design & Development",
+      imgUrl: proImg7,
+      url: "https://my-portfolio-pi-dusky-33.vercel.app/",
+    },
+    {
+      title: "E-commerce Website",
+      description: "Design & Development",
+      imgUrl: proImg8,
+      url: "https://github.com/shw2003/capstone-Project",
     },
   ];
 
