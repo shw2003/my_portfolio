@@ -4,6 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import ReactTyped from "react-typed";
 
 export const Banner = () => {
   return (
@@ -16,7 +17,18 @@ export const Banner = () => {
               <h1>
                 {`Hi! I'm Shweta`}
                 <br />
-                {`Software Engineer`}
+                <ReactTyped
+                  strings={[
+                    "Software Engineer",
+                    "Frontend Developer",
+                    "UI/UX Developer",
+                  ]}
+                  typeSpeed={100}
+                  loop
+                  backSpeed={20}
+                  cursorChar="|"
+                  showCursor={true}
+                />
               </h1>
               <p>
                 Innovative Web Developer, with excellent UI and UX Design skills
