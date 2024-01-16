@@ -20,7 +20,11 @@ export const Banner = () => {
 
                 <Typewriter
                   options={{
-                    strings: ["Hello", "World"],
+                    strings: [
+                      "Software Engineer",
+                      "Frontend Developer",
+                      "UI/UX Developer",
+                    ],
                     autoStart: true,
                     loop: true,
                   }}
