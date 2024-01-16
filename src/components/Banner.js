@@ -23,7 +23,7 @@ export const Banner = () => {
                     "Frontend Developer",
                     "UI/UX Developer",
                   ]}
-                  typeSpeed={100}
+                  typeSpeed={200}
                   loop
                   backSpeed={20}
                   cursorChar="|"
