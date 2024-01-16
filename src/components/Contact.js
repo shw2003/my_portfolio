@@ -4,7 +4,6 @@ import contactImg from "../assets/img/contact-img.svg";
 import "animate.css";
 
 export const Contact = () => {
-
   return (
     <section className="contact" id="connect">
       <Container>
@@ -21,19 +20,18 @@ export const Contact = () => {
                     📨
                     <a
                       style={{ color: "white", textDecoration: "none" }}
-                      href=" kamalshweta9@gmail.com"
+                      href="mailto:kamalshweta9@gmail.com"
                     >
                       {" "}
                       kamalshweta9@gmail.com
                     </a>
                   </Col>
                   <Col size={12} sm={6} className="px-1">
-                    📱{" "}
+                    📱
                     <a
                       style={{ color: "white", textDecoration: "none" }}
-                      href=""
+                      href="tel:+91 8707294714"
                     >
-                      {" "}
                       +91 8707294714
                     </a>
                   </Col>
