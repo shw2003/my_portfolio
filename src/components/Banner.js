@@ -17,7 +17,7 @@ export const Banner = () => {
               <h1>
                 {`Hi! I'm Shweta`}
                 <br />
-                <ReactTyped
+                {/* <ReactTyped
                   strings={[
                     "Software Engineer",
                     "Frontend Developer",
@@ -28,7 +28,7 @@ export const Banner = () => {
                   backSpeed={20}
                   cursorChar="|"
                   showCursor={true}
-                />
+                /> */}
               </h1>
               <p>
                 Innovative Web Developer, with excellent UI and UX Design skills
