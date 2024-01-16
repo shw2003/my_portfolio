@@ -23,7 +23,7 @@ export const Banner = () => {
                     strings: [
                       "Software Engineer",
                       "Front End Developer",
-                      "UI/UX Developer",
+                      "Web Application Developer",
                     ],
                     autoStart: true,
                     loop: true,
