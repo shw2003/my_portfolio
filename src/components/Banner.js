@@ -4,6 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import Typewriter from "typewriter-effect";
 
 export const Banner = () => {
   return (
@@ -16,18 +17,14 @@ export const Banner = () => {
               <h1>
                 {`Hi! I'm Shweta`}
                 <br />
-                {/* <ReactTyped
-                  strings={[
-                    "Software Engineer",
-                    "Frontend Developer",
-                    "UI/UX Developer",
-                  ]}
-                  typeSpeed={200}
-                  loop
-                  backSpeed={20}
-                  cursorChar="|"
-                  showCursor={true}
-                /> */}
+
+                <Typewriter
+                  options={{
+                    strings: ["Hello", "World"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
               </h1>
               <p>
                 Innovative Web Developer, with excellent UI and UX Design skills
