@@ -22,7 +22,7 @@ export const Banner = () => {
                   options={{
                     strings: [
                       "Software Engineer",
-                      "Frontend Developer",
+                      "Front End Developer",
                       "UI/UX Developer",
                     ],
                     autoStart: true,
