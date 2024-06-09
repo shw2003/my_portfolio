@@ -20,6 +20,13 @@ export const Projects = () => {
       imgUrl: projImg1,
       url: "https://comfyzone.netlify.app",
     },
+     {
+      title: "Giphy APP",
+      description: "Design & Development",
+      imgUrl: projImg2,
+      url: "https://giphy-app-sepia.vercel.app/",
+    },
+  
     {
       title: "Drumkit Sound Game",
       description: "Design & Development",
