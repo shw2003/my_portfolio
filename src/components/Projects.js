@@ -44,10 +44,7 @@ export const Projects = () => {
       imgUrl: proImg6,
       url: "https://responsive-headphone-website.netlify.app/",
     },
-  ];
-
-  const ReactProject = [
-    {
+     {
       title: "Keeper",
       description: "Design & Development",
       imgUrl: projImg5,
@@ -73,6 +70,9 @@ export const Projects = () => {
     },
   ];
 
+  const ReactProject = [
+    ]
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -89,12 +89,7 @@ export const Projects = () => {
                   <Nav.Item>
                     <Nav.Link eventKey="first">Web</Nav.Link>
                   </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="second">React Js</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="third">Backend</Nav.Link>
-                  </Nav.Item>
+                 
                 </Nav>
                 <Tab.Content id="slideInUp">
                   <Tab.Pane eventKey="first">
