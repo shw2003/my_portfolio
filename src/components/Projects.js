@@ -10,6 +10,8 @@ import projImg6 from "../assets/img/portf.png";
 import proImg6 from "../assets/img/headphone.png";
 import proImg7 from "../assets/img/blog Image.png";
 import proImg8 from "../assets/img/Ecommerce.png";
+import proImg9 from "../assets/img/Screenshot 2024-06-09 164741.png";
+
 import "animate.css";
 
 export const Projects = () => {
@@ -23,7 +25,7 @@ export const Projects = () => {
      {
       title: "Giphy APP",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg9,
       url: "https://giphy-app-sepia.vercel.app/",
     },
   
