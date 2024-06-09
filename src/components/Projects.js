@@ -88,7 +88,9 @@ export const Projects = () => {
             <div>
               <h2>Projects</h2>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                
+                <p class="port-text">
+                Here is some of my work that I've done in various Technology.
+            </p>
                 <Tab.Content id="slideInUp">
                   <Tab.Pane eventKey="first">
                     <div className="card-container">
