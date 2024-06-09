@@ -6,6 +6,8 @@ import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
+import "styles.css";
+
 
 export const Skills = () => {
   const responsive = {
@@ -29,69 +31,195 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="skill-bx wow zoomIn">
+    <section classNameName="skill" id="skills">
+      <div classNameName="container">
+        <div classNameName="row">
+          <div classNameName="col-12">
+            <div classNameName="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                autoPlaySpeed={1000}
-                autoPlay
-                className="owl-carousel owl-theme skill-slider"
-              >
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>React Js</h5>
+             <div className="about-stats">
+                <h4 className="stat-title">My Skills</h4>
+                <div className="progress-bars">
+                    <div className="progress-bar">
+                        <p className="prog-title">Spring Framework</p>
+                        <div className="progress-con">
+                            <p className="prog-text">95%</p>
+                            <div className="progress">
+                                <span className="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">Microservices</p>
+                        <div className="progress-con">
+                            <p className="prog-text">95%</p>
+                            <div className="progress">
+                                <span className="css"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div className="progress-bar">
+                        <p className="prog-title">Kafka</p>
+                        <div className="progress-con">
+                            <p className="prog-text">70%</p>
+                            <div className="progress">
+                                <span className="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">Design Patterns</p>
+                        <div className="progress-con">
+                            <p className="prog-text">90%</p>
+                            <div className="progress">
+                                <span className="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">System Design</p>
+                        <div className="progress-con">
+                            <p className="prog-text">70%</p>
+                            <div className="progress">
+                                <span className="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">ReactJs</p>
+                        <div className="progress-con">
+                            <p className="prog-text">87%</p>
+                            <div className="progress">
+                                <span className="node"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="progress-bar">
+                        <p className="prog-title">Java</p>
+                        <div className="progress-con">
+                            <p className="prog-text">90%</p>
+                            <div className="progress">
+                                <span className="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">Angular JS</p>
+                        <div className="progress-con">
+                            <p className="prog-text">87%</p>
+                            <div className="progress">
+                                <span className="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">Data Structure & Algorithm</p>
+                        <div className="progress-con">
+                            <p className="prog-text">87%</p>
+                            <div className="progress">
+                                <span className="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">GIT/GITHUB</p>
+                        <div className="progress-con">
+                            <p className="prog-text">90%</p>
+                            <div className="progress">
+                                <span className="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">Docker</p>
+                        <div className="progress-con">
+                            <p className="prog-text">87%</p>
+                            <div className="progress">
+                                <span className="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                     <div className="progress-bar">
+                        <p className="prog-title">Linux</p>
+                        <div className="progress-con">
+                            <p className="prog-text">70%</p>
+                            <div className="progress">
+                                <span className="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">Kubernetes</p>
+                        <div className="progress-con">
+                            <p className="prog-text">75%</p>
+                            <div className="progress">
+                                <span className="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">Jenkins CI/CD</p>
+                        <div className="progress-con">
+                            <p className="prog-text">87%</p>
+                            <div className="progress">
+                                <span className="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">MYSQL</p>
+                        <div className="progress-con">
+                            <p className="prog-text">87%</p>
+                            <div className="progress">
+                                <span className="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">MongoDB</p>
+                        <div className="progress-con">
+                            <p className="prog-text">55%</p>
+                            <div className="progress">
+                                <span className="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">AWS</p>
+                        <div className="progress-con">
+                            <p className="prog-text">55%</p>
+                            <div className="progress">
+                                <span className="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">C/C++</p>
+                        <div className="progress-con">
+                            <p className="prog-text">95%</p>
+                            <div className="progress">
+                                <span className="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="progress-bar">
+                        <p className="prog-title">Python</p>
+                        <div className="progress-con">
+                            <p className="prog-text">55%</p>
+                            <div className="progress">
+                                <span className="react"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Javascript</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>TypeScript</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>CSS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Redux</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Material UI</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Data Structure and algorithms</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>C++</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Git</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Bit Bucket</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Jira</h5>
-                </div>
-              </Carousel>
+                 </div>
             </div>
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img classNameName="background-image-left" src={colorSharp} alt="Image" />
     </section>
   );
 };
