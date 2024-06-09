@@ -25,7 +25,7 @@ export const Projects = () => {
      {
       title: "Giphy APP",
       description: "Design & Development",
-      imgUrl: projImg9,
+      imgUrl: proImg9,
       url: "https://giphy-app-sepia.vercel.app/",
     },
   
