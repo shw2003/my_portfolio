@@ -77,6 +77,12 @@ export const Projects = () => {
       imgUrl: proImg8,
       url: "https://github.com/shw2003/capstone-Project",
     },
+    {
+      title: "Tic-Tac-toe",
+      description: "Design & Development",
+      imgUrl: proImg8,
+      url: "https://github.com/shw2003/TIC-TAC-TOE-Js-",
+    },
   ];
 
   const ReactProject = [
