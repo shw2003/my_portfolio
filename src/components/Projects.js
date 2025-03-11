@@ -11,6 +11,7 @@ import proImg6 from "../assets/img/headphone.png";
 import proImg7 from "../assets/img/blog Image.png";
 import proImg8 from "../assets/img/Ecommerce.png";
 import proImg9 from "../assets/img/Screenshot 2024-06-09 164741.png";
+import proImg10 from "../assets/img/tic-tac-toe.png";
 
 import "animate.css";
 
@@ -80,7 +81,7 @@ export const Projects = () => {
     {
       title: "Tic-Tac-toe",
       description: "Design & Development",
-      imgUrl: proImg8,
+      imgUrl: proImg10,
       url: "https://github.com/shw2003/TIC-TAC-TOE-Js-",
     },
   ];
