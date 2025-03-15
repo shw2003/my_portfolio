@@ -88,7 +88,7 @@ export const Projects = () => {
     {
       title: "Book Management CRUD Application",
       description: "Design & Development",
-      imgUrl: proImg10,
+      imgUrl: proImg11,
       url: "https://github.com/shw2003/book-store",
     },
   ];
