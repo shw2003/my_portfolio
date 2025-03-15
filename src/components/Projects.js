@@ -84,6 +84,12 @@ export const Projects = () => {
       imgUrl: proImg10,
       url: "https://github.com/shw2003/TIC-TAC-TOE-Js-",
     },
+    {
+      title: "Book Management CRUD Application",
+      description: "Design & Development",
+      imgUrl: proImg10,
+      url: "https://github.com/shw2003/book-store",
+    },
   ];
 
   const ReactProject = [
