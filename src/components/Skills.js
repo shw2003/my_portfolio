@@ -25,6 +25,8 @@ import cIcon from "../assets/img/c++.png";
 import nodeIcon from "../assets/img/node.png";
 import mongoIcon from "../assets/img/mongoDB.png";
 import expressIcon from "../assets/img/express.png";
+import npmIcon from "../assets/img/npm.png";
+import restApiIcon from "../assets/img/RESTAPIs.png";
 
 const skillsData = [
   {
@@ -44,6 +46,7 @@ const skillsData = [
       { name: "Node Js", icon: nodeIcon },
       { name: "MongoDB", icon: mongoIcon },
       { name: "Express", icon: expressIcon },
+      { name: "REST APIs", icon: restApiIcon },
     ],
   },
   {
@@ -51,6 +54,7 @@ const skillsData = [
     skills: [
       { name: "C/C++", icon: cIcon },
       { name: "JavaScript", icon: jsIcon },
+      { name: "TypeScript", icon: tsIcon },
     ],
   },
   {
@@ -60,6 +64,10 @@ const skillsData = [
       { name: "GitHub", icon: githubIcon },
       { name: "Bitbucket", icon: bitbucketIcon },
     ],
+  },
+  {
+    category: "Package Managers & Tools",
+    skills: [{ name: "npm", icon: npmIcon }],
   },
   {
     category: "Project Management & API Testing",
