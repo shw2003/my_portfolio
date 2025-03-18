@@ -1,0 +1,62 @@
+.skills-section {
+  padding: 50px 0;
+  background: #0d0d0d;
+  text-align: center;
+  color: white;
+}
+
+.skills-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.skills-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Three cards per row */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: auto;
+  justify-content: center;
+}
+
+.skills-box {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.skills-category {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skill-item {
+  background: #262626;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+}
+
+.skill-icon {
+  width: 24px;
+  height: 24px;
+}
