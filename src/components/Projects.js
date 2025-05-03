@@ -23,32 +23,34 @@ export const Projects = () => {
   const allProjects = [
     {
       title: "Food Delivery App",
-      description: "Design & Development",
+      description:
+        "A full-stack **Food Delivery Web App** with role-based access for users and admins, real-time food menu management, and integrated **payment gateway** support.",
       imgUrl: proImg12,
       url: "https://github.com/shw2003/Food-Delivery-App",
       category: ["Frontend", "Backend"],
-      techStack: [
-        "Javascript",
-        "CSS",
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "payment gateway",
-      ],
+      techStack: ["React", "Node.js", "Express", "MongoDB", "payment gateway"],
     },
-
     {
-      title: "E-commerce website",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      url: "https://comfyzone.netlify.app",
-      category: "Frontend",
-      techStack: ["Javascript", "CSS", "HTML"],
+      title: "Book Management CRUD Application",
+      description:
+        "Built a backend application to manage books with full CRUD functionality, allowing users to add, edit, delete, and view book details. Integrated with React.js for the frontend and Node.js with Express for the backend.",
+      imgUrl: proImg11,
+      url: "https://github.com/shw2003/book-store",
+      category: "Backend",
+      techStack: [
+        "React JS",
+        "Javascript",
+        "Node Js",
+        "Express",
+        "CSS",
+        "Microservice Architecture",
+        "Design Patterns",
+      ],
     },
     {
       title: "Giphy APP",
-      description: "Design & Development",
+      description:
+        "Designed and developed a Giphy search application using React.js, integrating design patterns and microservice-based architecture for scalability.",
       imgUrl: proImg9,
       url: "https://giphy-app-sepia.vercel.app/",
       category: "Frontend",
@@ -61,48 +63,9 @@ export const Projects = () => {
       ],
     },
     {
-      title: "Drumkit Sound Game",
-      description: "Interactive Sound Game",
-      imgUrl: projImg2,
-      url: "https://drumkt.netlify.app/",
-      category: "Frontend",
-      techStack: ["Javascript", "CSS", "HTML"],
-    },
-    {
-      title: "Mine Sweeper Game",
-      description: "Classic Minesweeper Game",
-      imgUrl: projImg3,
-      url: "https://t5i9f.csb.app/",
-      category: "Frontend",
-      techStack: ["Javascript", "CSS", "HTML"],
-    },
-    {
-      title: "White Board",
-      description: "Real-time Drawing Board",
-      imgUrl: projImg4,
-      url: "https://k5c8x.csb.app/",
-      category: "Backend",
-      techStack: ["Javascript", "CSS", "HTML"],
-    },
-    {
-      title: "Responsive Headphone Website",
-      description: "Modern UI Design",
-      imgUrl: proImg6,
-      url: "https://responsive-headphone-website.netlify.app/",
-      category: "Frontend",
-      techStack: ["Javascript", "CSS", "HTML"],
-    },
-    {
-      title: "Keeper",
-      description: "Notes Keeping App",
-      imgUrl: projImg5,
-      url: "https://hfycx0.csb.app/",
-      category: "Frontend",
-      techStack: ["React JS", "Javascript", "Redux", "CSS"],
-    },
-    {
       title: "Portfolio",
-      description: "Personal Portfolio",
+      description:
+        "Designed and developed a personal portfolio showcasing skills, projects, and experience, with a clean, responsive design using modern frontend technologies and microservice architecture.",
       imgUrl: projImg6,
       url: "https://hfycx0.csb.app/",
       category: "Frontend",
@@ -116,8 +79,65 @@ export const Projects = () => {
       ],
     },
     {
+      title: "E-commerce website",
+      description:
+        "Designed and developed a responsive e-commerce platform focused on user experience and clean UI.",
+      imgUrl: projImg1,
+      url: "https://comfyzone.netlify.app",
+      category: "Frontend",
+      techStack: ["Javascript", "CSS", "HTML"],
+    },
+
+    {
+      title: "Drumkit Sound Game",
+      description:
+        "Built an interactive sound game simulating a drumkit using keyboard and mouse events with real-time audio feedback.",
+      imgUrl: projImg2,
+      url: "https://drumkt.netlify.app/",
+      category: "Frontend",
+      techStack: ["Javascript", "CSS", "HTML"],
+    },
+    {
+      title: "Mine Sweeper Game",
+      description:
+        "Developed the classic Minesweeper game with dynamic grid generation and interactive gameplay using JavaScript.",
+      imgUrl: projImg3,
+      url: "https://t5i9f.csb.app/",
+      category: "Frontend",
+      techStack: ["Javascript", "CSS", "HTML"],
+    },
+    {
+      title: "White Board",
+      description:
+        "Developed a real-time collaborative drawing board allowing multiple users to draw and interact in real-time using JS for seamless communication.",
+      imgUrl: projImg4,
+      url: "https://k5c8x.csb.app/",
+      category: "Backend",
+      techStack: ["Javascript", "CSS", "HTML"],
+    },
+    {
+      title: "Responsive Headphone Website",
+      description:
+        "Designed a modern, responsive website showcasing headphones, featuring an interactive UI with smooth navigation and product details.",
+      imgUrl: proImg6,
+      url: "https://responsive-headphone-website.netlify.app/",
+      category: "Frontend",
+      techStack: ["Javascript", "CSS", "HTML"],
+    },
+    {
+      title: "Keeper",
+      description:
+        "Developed a note-keeping app using React.js and Redux for state management, allowing users to create, update, and delete notes in an interactive interface.",
+      imgUrl: projImg5,
+      url: "https://hfycx0.csb.app/",
+      category: "Frontend",
+      techStack: ["React JS", "Javascript", "Redux", "CSS"],
+    },
+
+    {
       title: "Blog app",
-      description: "Blog Publishing Platform",
+      description:
+        "Built a blog publishing platform where users can create, edit, and manage blog posts. It utilizes microservice architecture for modularity and scalability, with React for the frontend and Node.js for the backend.",
       imgUrl: proImg7,
       url: "https://my-portfolio-pi-dusky-33.vercel.app/",
       category: "Backend",
@@ -132,7 +152,8 @@ export const Projects = () => {
     },
     {
       title: "E-commerce Website",
-      description: "Online Store",
+      description:
+        "Developed an online store with a modern and user-friendly interface, allowing users to browse, search, and filter products. Integrated React.js and Redux for efficient state management and seamless shopping experience.",
       imgUrl: proImg8,
       url: "https://github.com/shw2003/capstone-Project",
       category: "Frontend",
@@ -147,7 +168,8 @@ export const Projects = () => {
     },
     {
       title: "Tic-Tac-toe",
-      description: "Classic Tic-Tac-Toe Game",
+      description:
+        "Developed a classic Tic-Tac-Toe game with a modern twist, using React.js for dynamic rendering and Redux for state management. The game allows players to play against each other in a user-friendly interface.",
       imgUrl: proImg10,
       url: "https://github.com/shw2003/TIC-TAC-TOE-Js-",
       category: "Frontend",
@@ -155,22 +177,6 @@ export const Projects = () => {
         "React JS",
         "Javascript",
         "Redux",
-        "CSS",
-        "Microservice Architecture",
-        "Design Patterns",
-      ],
-    },
-    {
-      title: "Book Management CRUD Application",
-      description: "CRUD Operations with Books",
-      imgUrl: proImg11,
-      url: "https://github.com/shw2003/book-store",
-      category: "Backend",
-      techStack: [
-        "React JS",
-        "Javascript",
-        "Node Js",
-        "Express",
         "CSS",
         "Microservice Architecture",
         "Design Patterns",
