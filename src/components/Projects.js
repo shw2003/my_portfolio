@@ -17,9 +17,18 @@ import proImg8 from "../assets/img/Ecommerce.png";
 import proImg9 from "../assets/img/Screenshot 2024-06-09 164741.png";
 import proImg10 from "../assets/img/tic-tac-toe.png";
 import proImg11 from "../assets/img/Screenshot 2025-03-16 032845.png";
+import proImg11 from "../assets/img/Screenshot 2025-03-16 032845.png";
 
 export const Projects = () => {
   const allProjects = [
+    {
+      title: "Food Delivery App",
+      description: "Design & Development",
+      imgUrl: projImg1,
+      url: "https://github.com/shw2003/Food-Delivery-App",
+      category: "Frontend",
+      techStack: ["Javascript", "CSS", "HTML"],
+    },
     {
       title: "E-commerce website",
       description: "Design & Development",
