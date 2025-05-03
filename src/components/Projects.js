@@ -17,9 +17,27 @@ import proImg8 from "../assets/img/Ecommerce.png";
 import proImg9 from "../assets/img/Screenshot 2024-06-09 164741.png";
 import proImg10 from "../assets/img/tic-tac-toe.png";
 import proImg11 from "../assets/img/Screenshot 2025-03-16 032845.png";
+import proImg12 from "../assets/img/FoodDeliveryApp.png";
 
 export const Projects = () => {
   const allProjects = [
+    {
+      title: "Food Delivery App",
+      description: "Design & Development",
+      imgUrl: proImg12,
+      url: "https://github.com/shw2003/Food-Delivery-App",
+      category: ["Frontend", "Backend"],
+      techStack: [
+        "Javascript",
+        "CSS",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "payment gateway",
+      ],
+    },
+
     {
       title: "E-commerce website",
       description: "Design & Development",
@@ -206,7 +224,9 @@ export const Projects = () => {
                 <Tab.Pane eventKey="react">
                   <Row className="justify-content-center">
                     {allProjects
-                      .filter((project) => project.category === "Frontend")
+                      .filter((project) =>
+                        project.category.includes("Frontend")
+                      )
                       .map((project, index) => (
                         <Col key={index} md={4} sm={6} xs={12} className="mb-4">
                           <a
@@ -225,7 +245,7 @@ export const Projects = () => {
                 <Tab.Pane eventKey="javascript">
                   <Row className="justify-content-center">
                     {allProjects
-                      .filter((project) => project.category === "Backend")
+                      .filter((project) => project.category.includes("Backend"))
                       .map((project, index) => (
                         <Col key={index} md={4} sm={6} xs={12} className="mb-4">
                           <a
